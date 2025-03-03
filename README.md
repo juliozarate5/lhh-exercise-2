@@ -1,4 +1,4 @@
-# Prices e-commerce BCNC Group
+# Microservice API REST Consumer Token ViveLibre
 
 ## Overview
 The following repo contains Microservice consumes external token service of VivaLibre
