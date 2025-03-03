@@ -1,12 +1,9 @@
-package com.lhh.ms.token.infrastructure.client.dto;
+package com.lhh.ms.token.domain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
-
-import java.io.Serializable;
 
 import static lombok.AccessLevel.PRIVATE;
 
@@ -14,9 +11,9 @@ import static lombok.AccessLevel.PRIVATE;
 @FieldDefaults(level = PRIVATE)
 @Builder
 @AllArgsConstructor
-@NoArgsConstructor
-public class TokenResponseDTO implements Serializable {
+public class TokenRequestDTO {
 
-    String token;
+    String username;
 
+    String password;
 }

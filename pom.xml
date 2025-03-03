@@ -81,7 +81,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-log4j2</artifactId>
 		</dependency>
-
+		<!-- metricas -->
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-core</artifactId>
+		</dependency>
 		<!--  Mapstruct  -->
 		<!--  https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
 		<dependency>
@@ -96,15 +100,23 @@
 			<version>1.6.2</version>
 		</dependency>
 
-		<!-- PERSISTENCE -->
+		<!-- PERSISTENCE  -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+
+		<!-- VALIDATOR -->
+		<!--  https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator  -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>

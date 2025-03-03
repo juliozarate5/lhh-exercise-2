@@ -1,0 +1,43 @@
+2025-03-03 09:46:23,492 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2025-03-03 09:46:23,547 INFO o.s.b.StartupInfoLogger [main] Starting MsTokenApplication using Java 17.0.8 with PID 20456 (D:\DOCUMENTOS\LHH\Prueba_tecnica_Backend_ViveLibre v.3\Ejercicio2\ms-token\target\classes started by JULIO MARTINEZ in D:\DOCUMENTOS\LHH\Prueba_tecnica_Backend_ViveLibre v.3\Ejercicio2\ms-token)
+2025-03-03 09:46:23,554 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-03-03 09:46:23,555 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "local"
+2025-03-03 09:46:24,641 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-03 09:46:24,701 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2025-03-03 09:46:24,891 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=b89e4d4f-5263-3b17-9c48-4216daad2673
+2025-03-03 09:46:25,480 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2025-03-03 09:46:25,491 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2025-03-03 09:46:25,493 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-03-03 09:46:25,493 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-03-03 09:46:25,560 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-03-03 09:46:25,561 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1960 ms
+2025-03-03 09:46:25,694 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-03-03 09:46:25,870 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:prices user=SA
+2025-03-03 09:46:25,871 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-03-03 09:46:25,880 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2'. Database available at 'jdbc:h2:mem:prices'
+2025-03-03 09:46:26,059 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-03 09:46:26,135 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-03-03 09:46:26,175 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2025-03-03 09:46:26,417 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-03 09:46:27,272 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-03 09:46:27,311 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-03 09:46:27,487 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-03 09:46:28,689 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-03-03 09:46:28,747 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2025-03-03 09:46:28,777 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path '/api/v1'
+2025-03-03 09:46:28,894 INFO o.s.b.StartupInfoLogger [main] Started MsTokenApplication in 5.929 seconds (process running for 6.553)
+2025-03-03 09:46:28,939 INFO o.a.j.l.DirectJDKLog [http-nio-8081-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03 09:46:28,939 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-3] Initializing Servlet 'dispatcherServlet'
+2025-03-03 09:46:28,940 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-3] Completed initialization in 1 ms
+2025-03-03 09:46:28,954 INFO c.l.m.t.a.f.LogginFilter [http-nio-8081-exec-3] Processing request: GET /api/v1/swagger-ui/index.html
+2025-03-03 09:46:29,021 INFO c.l.m.t.a.f.LogginFilter [http-nio-8081-exec-1] Processing request: GET /api/v1/swagger-ui/swagger-initializer.js
+2025-03-03 09:46:29,259 INFO c.l.m.t.a.f.LogginFilter [http-nio-8081-exec-2] Processing request: GET /api/v1/v3/api-docs/swagger-config
+2025-03-03 09:46:29,350 INFO c.l.m.t.a.f.LogginFilter [http-nio-8081-exec-4] Processing request: GET /api/v1/v3/api-docs
+2025-03-03 09:46:29,659 INFO o.s.a.AbstractOpenApiResource [http-nio-8081-exec-4] Init duration for springdoc-openapi is: 289 ms
+2025-03-03 09:46:37,891 INFO c.l.m.t.a.f.LogginFilter [http-nio-8081-exec-5] Processing request: POST /api/v1/token
+2025-03-03 09:46:37,933 INFO c.l.m.t.i.r.TokenController [http-nio-8081-exec-5] Executing getToken from Controller...
+2025-03-03 09:46:40,565 INFO c.l.m.t.a.f.LogginFilter [http-nio-8081-exec-6] Processing request: POST /api/v1/token
+2025-03-03 09:46:40,567 INFO c.l.m.t.i.r.TokenController [http-nio-8081-exec-6] Executing getToken from Controller...
+2025-03-03 09:46:41,719 INFO c.l.m.t.a.f.LogginFilter [http-nio-8081-exec-7] Processing request: POST /api/v1/token
+2025-03-03 09:46:41,720 INFO c.l.m.t.i.r.TokenController [http-nio-8081-exec-7] Executing getToken from Controller...
+2025-03-03 09:46:45,060 INFO c.l.m.t.a.f.LogginFilter [http-nio-8081-exec-8] Processing request: GET /api/v1/actuator

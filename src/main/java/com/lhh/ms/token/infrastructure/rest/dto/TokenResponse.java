@@ -1,4 +1,4 @@
-package com.lhh.ms.token.infrastructure.client.dto;
+package com.lhh.ms.token.infrastructure.rest.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -15,10 +15,10 @@ import static lombok.AccessLevel.PRIVATE;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class TokenRequestDTO implements Serializable {
+public class TokenResponse implements Serializable {
 
-    String username;
+    String token;
 
-    String password;
+    String timestamp;
 
 }
